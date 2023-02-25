@@ -12,7 +12,7 @@ function LoanTotals({
   return (
     <div className="my-6 p-4 border-2 border-red-500 rounded-lg flex flex-col">
       <h2 className="text-2xl font-bold text-red-500">Loan Total Amounts</h2>
-      <div className="flex flex-row justify-center gap-10">
+      <div className="flex flex-row justify-center md:gap-10">
         <div className="mt-4 flex flex-col">
           <span className="font-bold text-lg">Principal Amount: </span>
           <span className="text-lg">
